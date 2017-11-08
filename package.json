@@ -1,0 +1,19 @@
+{
+  "name": "typeorm-typescript-example",
+  "version": "1.0.0",
+  "description": "Example how to use TypeORM with TypeScript.",
+  "main": "index.js",
+  "repository": "https://github.com/EvilNOP/typescript-example.git",
+  "author": "EvilNOP <evilnops@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/node": "^8.0.50",
+    "mysql": "^2.15.0",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "^0.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  }
+}
