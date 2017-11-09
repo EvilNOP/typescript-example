@@ -4,7 +4,7 @@ import { Post } from './entity/post';
 import { Category } from './entity/category';
 
 // connection settings are in the "ormconfig.json" file
-async () => {
+(async () => {
   try {
     const connection = await createConnection();
     
@@ -28,4 +28,4 @@ async () => {
   } catch (error) {
     throw error;
   }
-}
+})();
