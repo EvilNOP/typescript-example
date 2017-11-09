@@ -1,5 +1,4 @@
 {
-  "name": "default",
   "type": "mysql",
   "host": "localhost",
   "port": 3306,
@@ -9,17 +8,17 @@
   "synchronize": true,
   "logging": false,
   "entities": [
-    "src/entity/*.js"
-  ],
-  "subscribers": [
-    "src/subscriber/*.js"
+     "src/entity/**/*.ts"
   ],
   "migrations": [
-    "src/migration/*.js"
+     "src/migration/**/*.ts"
+  ],
+  "subscribers": [
+     "src/subscriber/**/*.ts"
   ],
   "cli": {
-    "entitiesDir": "src/entity",
-    "migrationsDir": "src/migration",
-    "subscribersDir": "src/subscriber"
+     "entitiesDir": "src/entity",
+     "migrationsDir": "src/migration",
+     "subscribersDir": "src/subscriber"
   }
 }
